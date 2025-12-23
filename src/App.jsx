@@ -1,6 +1,7 @@
 import { BrowserRouter as Router } from 'react-router-dom';
 import HeroSection from "./components/HeroSection";
-import BrandIntro from "./components/BrandIntro";
+import BrandIntroNoble from "./components/BrandIntroNoble";
+import BrandIntroMayville from "./components/BrandIntroMayville";
 import ProductCategories from "./components/ProductCategories";
 import BestProducts from "./components/BestProducts";
 
@@ -12,7 +13,8 @@ function App() {
         <HeroSection />
 
         {/* BRAND INTRO */}
-        <BrandIntro />
+        <BrandIntroNoble />
+        <BrandIntroMayville />
 
         {/* PRODUCT CATEGORIES */}  
         <ProductCategories/>
