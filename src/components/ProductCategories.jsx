@@ -45,7 +45,7 @@ const ProductCategories = () => {
         bg-no-repeat
       "
       style={{
-        backgroundImage: 'url("/images/brand-bg.jpg")',
+        backgroundImage: 'url("/images/mayville_bg.png")',
       }}
     >
       {/* Decorative circular cutout image */}
@@ -116,7 +116,7 @@ const ProductCategories = () => {
 
                 {/* Description */}
                 <div className="px-6 py-4">
-                  <p className="text-white text-base md:text-xl">
+                  <p className="text-black text-base md:text-xl">
                     {category.description}
                   </p>
                 </div>

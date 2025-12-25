@@ -64,7 +64,7 @@ const BestProducts = () => {
       "
       style={{ backgroundImage: 'url("/images/brand-bg2.jpg")' }}
     >
-      {/* 🔥 CUTOUT FRUIT BETWEEN SECTIONS */}
+      {/* 🔥 CUTOUT FRUIT BETWEEN SECTIONS
       <img
         src="/images/fruit-cut-left.png"
         alt="Fruit cutout"
@@ -80,7 +80,7 @@ const BestProducts = () => {
           pointer-events-none
           drop-shadow-[0_15px_25px_rgba(0,0,0,0.15)]
         "
-      />
+      /> */}
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-[1.2fr_1fr] gap-6 lg:gap-8 items-center">
@@ -92,8 +92,7 @@ const BestProducts = () => {
             </span>
 
             <h2 className="text-4xl md:text-5xl font-bold leading-tight text-gray-800 mb-6">
-              Handcrafted <span className="text-amber-600">Jams</span><br />
-              For Every Taste
+              Picked The Most
             </h2>
 
             <AnimatePresence mode="wait">
@@ -119,8 +118,8 @@ const BestProducts = () => {
                   ))}
                 </div>
 
-                <button className="px-8 py-3.5 rounded-full bg-gradient-to-r from-amber-600 to-amber-500 text-white font-medium shadow-lg">
-                  Shop Now
+                <button className="px-8 py-3.5 rounded-full bg-gradient-to-r bg-red-600 text-white font-medium shadow-lg">
+                  Buy on Amazon
                 </button>
               </motion.div>
             </AnimatePresence>
