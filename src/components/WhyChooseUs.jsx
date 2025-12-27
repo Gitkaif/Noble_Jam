@@ -16,7 +16,7 @@ const WhyChooseUs = () => {
   ];
 
   return (
-    <section className="relative w-full py-24 " 
+    <section className="relative w-full py-24 bg-cover bg-center bg-no-repeat " 
     style={{
     backgroundImage: 'url("/images/mayville_bg.png")', // neutral bg
     backgroundSize: 'cover',

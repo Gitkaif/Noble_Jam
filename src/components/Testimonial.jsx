@@ -47,7 +47,7 @@ const Testimonial = () => {
 
   return (
   <div 
-  className="w-full min-h-screen bg-cover bg-center bg-no-repeat bg-fixed"
+  className="w-full min-h-screen bg-cover bg-center bg-no-repeat "
   style={{
     backgroundImage: 'url("/images/brand-bg2.jpg")',
   }}

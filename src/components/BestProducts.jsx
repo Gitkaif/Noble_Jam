@@ -60,7 +60,7 @@ const BestProducts = () => {
         py-20
         bg-[#f9f7f3]
         relative
-        overflow-visible
+        overflow-visible 
       "
       style={{ backgroundImage: 'url("/images/brand-bg2.jpg")' }}
     >

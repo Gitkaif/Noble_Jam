@@ -1,48 +1,30 @@
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import Navbar from "./components/Navbar";
 
-// In your App.js
-import Navbar from './components/Navbar';
-import { BrowserRouter as Router } from 'react-router-dom';
-import HeroSection from '@components/HeroSection';
-import BestProducts from '@components/BestProducts';
-import WhyChooseUs from '@components/WhyChooseUs';
-import ProductCategories from '@components/ProductCategories';
-// import BrandIntroNoble from '@components/BrandIntroNoble';
-// import BrandIntroMayville from '@components/BrandIntroMayville';
-import MergedBrandSection from '@components/MergedBrandSection';
-import Testimonial from '@components/Testimonial';
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Blog from "./pages/Blog";
+import Contact from "./pages/Contact";
+import ErrorPage from "./pages/ErrorPage";
 
 function App() {
   return (
     <Router>
       <Navbar />
-      <main className="w-full overflow-x-hidden">
-        <section id="home">
-          <HeroSection />
-        </section>
-        
-        <MergedBrandSection />
-        {/* <section id="noble">
-          <BrandIntroNoble />
-        </section>
 
-        <section id="mayville">
-          <BrandIntroMayville />
-        </section> */}
+      <main className="w-full overflow-x-hidden pt-24">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/contact" element={<Contact />} />
 
-        <section id="products">
-          <ProductCategories />
-          <BestProducts />
-        </section>
-
-        <section id="why-us">
-          <WhyChooseUs />
-        </section>
-
-        <Testimonial/>
-
-        {/* Add other sections with their respective IDs */}
+          {/* Fallback */}
+          <Route path="*" element={<ErrorPage/>} />
+        </Routes>
       </main>
     </Router>
   );
 }
+
 export default App;

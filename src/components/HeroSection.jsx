@@ -79,7 +79,7 @@ const HeroSection = () => {
             onTimeUpdate={handleTimeUpdate}
             onError={handleVideoError}
           >
-            <source src="/videos/hero.mp4" type="video/mp4" />
+            <source src="/videos/hero-bg.mp4" type="video/mp4" />
           </video>
         ) : (
           <div className="h-full w-full bg-gradient-to-br from-red-900 to-green-900" />
@@ -121,7 +121,7 @@ const HeroSection = () => {
                 variants={itemVariants}
               >
                 <motion.a
-                  href="https://www.amazon.in/s?k=Noble+%26+Mayville"
+                  href="https://www.amazon.in/stores/page/82226F8A-BFF7-49BC-AB66-AAD004EF5779"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-red-700 hover:bg-red-800 text-white py-3 px-8 rounded-full font-medium"
