@@ -33,7 +33,7 @@ const WhyChooseUs = () => {
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         {/* Header */}
         <div className="text-center mb-20">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6" style={{ fontFamily: "Lobster, cursive" }}>
             Why Choose Us
           </h2>
 

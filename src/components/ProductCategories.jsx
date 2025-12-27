@@ -48,7 +48,7 @@ const ProductCategories = () => {
         backgroundImage: 'url("/images/mayville_bg.png")',
       }}
     >
-      {/* Decorative circular cutout image */}
+      {/* Decorative circular cutout image
       <img
         src="/images/fruit-cutt.png"
         alt="Fruit decoration"
@@ -63,12 +63,14 @@ const ProductCategories = () => {
           object-contain
           pointer-events-none
         "
-      />
+      /> */}
 
       <div className="max-w-6xl mx-auto relative z-10">
         {/* Section Heading */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 tracking-tight mb-4">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 tracking-tight mb-4"
+          style={{ fontFamily: "Lobster, cursive" }}
+          >
             Our Products
           </h2>
           <div className="w-20 h-0.5 bg-red-500 mx-auto"></div>
